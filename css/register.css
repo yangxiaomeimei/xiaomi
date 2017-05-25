@@ -1,0 +1,220 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	overflow-y: auto;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+
+}
+#wrap{
+	width: 100%;
+	height: auto;
+}
+#wrap .cont{
+    width:854px;
+    height: 512px;
+    padding-bottom: 80px; 
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+    
+
+}
+#wrap .cont .layout{
+	width: 100%;
+	height: 502px;
+    padding-bottom: 10px;
+    background: #fff;
+}
+#wrap .cont .layout .frame{
+    width: 786px;
+    height: 472px;
+    padding: 0 34px 30px 34px;
+}
+#wrap .cont .layout .frame .logo{
+	width: 100%;
+	height: 48px;
+	padding-bottom: 40px;
+
+
+
+}
+#wrap .cont .layout .frame .logo>a>img{
+	width: 48px;
+	height: 48px;
+    position: absolute;
+	left: 50%;
+	top: 0;	
+	margin-left: -24px;
+}
+#wrap .cont .layout .frame .xiaomi{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#wrap .cont .layout .frame .xiaomi>h4{
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#wrap .cont .layout .frame .biaoge{
+	height: 339px;
+	width: 100%;
+
+}
+#wrap .cont .layout .frame .biaoge .box{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 322px;
+	height: 279px;
+	margin-left: 227px;
+	margin-right: 227px;
+
+}
+#wrap .cont .layout .frame .biaoge .box .dan1{
+   width: 322px;
+   height: 42px;
+   border: 1px solid #e0e0e0;
+   margin-bottom: 15px;
+}
+#wrap .cont .layout .frame .biaoge .box .dan1>p{
+	width: 275px;
+	padding-left: 14px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	line-height: 40px;
+	font-size: 14px;
+	border-right: 1px solid #e0e0e0;
+
+}
+#wrap .cont .layout .frame .biaoge .box .dan1>i{
+	width: 16px;
+	height: 16px;
+	margin: 12px 8px 0 8px ;
+	background: url(../images/icon_user.png)no-repeat 0 0;
+	float: right;
+}
+#wrap .cont .layout .frame .biaoge .box .dan2{
+   width: 322px;
+   height: 42px;
+   margin-bottom: 30px;
+   font-size: 12px;
+   color: #333;
+  
+
+}
+#wrap .cont .layout .frame .biaoge .box .dan2>input{
+	width: 312px;
+	height: 42px;
+	 padding-left: 10px;
+
+}
+#wrap .cont .layout .frame .biaoge .box .dan2>.phone{
+	height: 18px;
+	width: 312px;
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 10px; 
+	line-height: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: red;
+
+}
+#wrap .cont .layout .frame .biaoge .box .yanzheng{
+	width: 322px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+#wrap .cont .layout .frame .biaoge .box .yanzheng>input{
+    width: 170px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+
+
+
+}
+#wrap .cont .layout .frame .biaoge .box>.yz{
+	height: 18px;
+	background: #fff;
+	border: 1px solid #eee;
+	color: red;
+	font-size: 10px;
+	width: 322px;
+	font-size: 8px;
+	line-height: 18px;
+	margin-bottom: 10px;
+
+
+}
+#wrap .cont .layout .frame .biaoge .box .yanzheng>img{
+   float: right;
+   width: 120px;
+   height: 42px;
+   margin-left: 7px;
+}
+#wrap .cont .layout .frame .biaoge .box .btn{
+	width: 332px;
+	height: 92px;
+	
+}
+#wrap .cont .layout .frame .biaoge .box .btn>input{
+	width: 328px;
+	height: 40px;
+	border: 1px solid red;
+	font-size: 16px;
+	color: #fff;
+	background: #f56600;
+	margin-bottom: 10px;
+
+
+}
+#wrap .cont .layout .frame .biaoge .box .btn>p{
+	font-size: 12px;
+	color: #9d9d9d;
+}
+#wrap .cont .layout .frame .biaoge .box .btn>p>a{
+	color: #333;
+	text-decoration: none;
+}
+#wrap .cont .footer {
+	text-align: center;
+	color: #9d9d9d;
+	height: 80px;
+	position: relative;
+	margin-top: 10px;
+}
+#wrap .cont .footer .foo {
+   text-align: center;
+	position: absolute;
+	left: 45%;
+	top: 0;
+
+} 
+#wrap .cont .footer .foo ul>li{
+	float: left;
+list-style: none;
+color: #757575;
+font-size: 12px;
+
+}
+#wrap .cont .footer .foo>p{
+	display: inline-block;
+	margin-left: -100px;
+	color: #757575;
+	margin-top: 10px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+#wrap .cont .footer .foo>p>a{
+	color: #757575;
+	text-decoration: none;
+}
